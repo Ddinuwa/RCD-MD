@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "RCD-MD&xV41XUdf",
+  SESSION_ID: process.env.SESSION_ID || "RCD-MD&BTQ5zBLq",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true,
   STATUS_SEND_RAW_URL: process.env.STATUS_SEND_RAW_URL || "Dapan",
   AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
