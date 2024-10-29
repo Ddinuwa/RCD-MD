@@ -3,9 +3,9 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "RCD-MD&BTQ5zBLq",
+  SESSION_ID: process.env.SESSION_ID || "RCD-MD&WLW50hq8",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true,
-  STATUS_SEND_RAW_URL: process.env.STATUS_SEND_RAW_URL || "Dapan",
+  STATUS_SEND_RAW_URL: process.env.STATUS_SEND_RAW_URL || "Dapan,ewapan,send,oni,ewanna,save,ඕනි,එවන්න,දාන්න,දාපන්,එවපන්",
   AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
   AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : false,
